@@ -124,4 +124,48 @@ Based on their foundational importance and real-world relevance, these topics ar
 6. **Cloud Native Security**:
    - Zero Trust and monitoring principles.
 
-Would you like detailed notes on any specific topic or subtopic?
+
+
+### Simplified Explanations:
+
+#### **Continuous Integration/Delivery/Deployment**
+- **Continuous Integration (CI)**: Developers frequently merge their code into a shared repository, ensuring smaller, manageable changes to reduce risks and conflicts.
+- **Continuous Delivery (CD)**: Automates testing and deployment processes, making code integration and release faster, consistent, and high quality.
+
+#### **Dev(Sec)Ops**
+- DevOps is a way of working that combines development and operations to build software efficiently.  
+- Security is added seamlessly (DevSecOps) by avoiding delays, reducing errors, and ensuring rapid feedback between teams.  
+
+#### **Cloud Computing**
+- Cloud computing provides services like storage, tools, and infrastructure whenever needed, with no need for users to manage hardware directly.  
+- It includes advantages like auto-scaling but requires careful planning to control unexpected costs, like during attacks.
+
+#### **Cloud Native**
+- These are modern systems built to fully utilize cloud capabilities, such as automation and integration.  
+- Key technologies include CI/CD, microservices, and containers. Without proper security, they can become easy targets for attackers.
+
+#### **Cloud Native Security**
+- Focuses on principles like zero trust (assume breaches happen) and secure defaults.  
+- Features include monitoring, logging, and identity-based access controls to ensure proactive security.
+
+#### **Cloud Workflows**
+- Automated processes that are triggered by events (e.g., login attempts).  
+- They run pre-defined actions and require thorough testing to ensure accuracy and reliability.
+
+#### **Modern Tooling**
+- Tools improve application security during development (e.g., SAST/DAST for scanning vulnerabilities).  
+- They integrate into CI/CD pipelines, reduce manual effort, and provide centralized dashboards for better visibility.
+
+#### **Application Inventory Tools**
+- These tools find and list all software, APIs, and cloud apps in a system, ensuring the inventory stays complete and up-to-date.
+
+#### **Least Privilege and Policy Automation**
+- Automates the enforcement of policies, like only allowing necessary permissions (least privilege).  
+- Includes monitoring for violations, enforcing secure communication, and requiring MFA for critical accounts.
+
+#### **Modern Tactics**
+- Use asynchronous pipelines for security tests to avoid slowing down development.  
+- Convert test results into actionable items like unit tests and build secure code libraries for developers.  
+- Stay updated with industry practices by learning from leaders and conferences.
+
+Would you like me to create concise notes or study materials for these topics?
