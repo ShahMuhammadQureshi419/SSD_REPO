@@ -1,106 +1,127 @@
-### Topics and Subtopics from the NIST File
+### Topics and Subtopics from the File:
 
 #### **1. APIs and Microservices**
-- Overview of APIs and Microservices
-- Securing APIs and Microservices
-  - Use of service mesh
-  - Secure coding standards
-- Authentication and Authorization
-- Error Handling Best Practices
-- Restrictive HTTP Methods
+- Overview of APIs.
+- Securing APIs and Microservices:
+  - Service mesh for communication management.
+  - Secure coding standards.
+- Authentication and Authorization.
+- Error Handling Best Practices.
+- Restrictive HTTP Methods.
 
 #### **2. Online Storage**
-- Data Classification and Labeling
-- Enhanced Security Layers
-- Access Control and Authentication
+- Data Classification and Labeling.
+- Enhanced Security Layers:
+  - Access monitoring, file integrity, and port sniffing detection.
+- Access Control and Authentication.
 
 #### **3. Containers and Orchestration**
-- Evolution of Data Centers
-- Container Orchestration
-- Security Best Practices
-  - Network and cloud security
-  - Resource limitation and alerts
-- Container User Privileges
-- Securing Container Registries
-- Policy for Image Downloads
+- Evolution of Data Centers: VMs to containers.
+- Container Orchestration.
+- Security Best Practices for Containers:
+  - Least privilege principle.
+  - Securing container registries.
+  - Policies for trusted image downloads.
 
 #### **4. Serverless Computing**
-- Ephemeral Nature of Serverless Applications
-- Cost-Efficiency and Security
-- API Gateway for Security
-- Isolation and Authentication
+- Ephemeral nature and cost efficiency.
+- API Gateway for Security.
+- Isolation and Authentication.
 
 #### **5. Infrastructure as Code (IaC)**
-- Automation and DevOps
-- Security Hardening and Automation
-- Repeatable and Documented Processes
-- Immutable Infrastructure
+- Overview in DevOps.
+- Security Hardening and Automation.
+- Immutable Infrastructure for Risk Reduction.
 
 #### **6. Security as Code (SaC)**
-- Integrating Security into DevOps Practices
 
-#### **7. Cloud Platforms**
-- Platform as a Service (PaaS)
-- Infrastructure as a Service (IaaS)
-- Security Responsibilities in PaaS and IaaS
+#### **7. Platform as a Service (PaaS)**
+- Overview and security responsibilities.
 
-#### **8. DevOps and Continuous Integration**
-- Continuous Integration, Delivery, and Deployment
-- DevSecOps
-- Security Tools for CI/CD Pipelines
+#### **8. Infrastructure as a Service (IaaS)**
 
-#### **9. Cloud Native and Cloud Security**
-- Cloud Native Principles
-- Zero Trust and Secure Defaults
-- Identity as the New Perimeter
-- Monitoring and Logging
+#### **9. Continuous Integration/Delivery/Deployment**
 
-#### **10. Modern Tooling**
-- IAST and RASP Tools
-- Application Inventory Tools
-- Least Privilege Automation
-- Policy Enforcement and Alerting
+#### **10. Dev(Sec)Ops**
+- The Three Ways for DevOps success.
+- Integration of security in DevOps workflows.
 
----
+#### **11. Cloud Computing**
+- Overview and security considerations.
+- Auto-scaling and resource management.
 
-### Topics Likely to Appear in Finals
-1. **APIs and Microservices Security**:
-   - Authentication, Authorization, Error Handling, and Restrictive HTTP Methods.
-2. **Container and Orchestration Security**:
-   - Least privilege principles and securing container registries.
-3. **Serverless Computing**:
-   - API gateway security and authentication mechanisms.
-4. **Infrastructure as Code**:
-   - Repeatability and Immutable Infrastructure.
-5. **Cloud Native Security**:
-   - Zero trust, monitoring, and logging practices.
-6. **DevSecOps**:
-   - Security tools in CI/CD pipelines and secure code libraries.
+#### **12. Cloud Native**
+- Applications, automation, and security implications.
+
+#### **13. Cloud Native Security**
+- Zero Trust and Assume Breach principles.
+- Monitoring and logging.
+
+#### **14. Cloud Workflows**
+- Event-triggered workflows and testing.
+
+#### **15. Modern Tooling**
+- Interactive and runtime application security testing.
+- Security tools for CI/CD pipelines.
+
+#### **16. Application Inventory Tools**
+
+#### **17. Least Privilege and Policy Automation**
+- Automating policy enforcement and MFA.
+
+#### **18. Modern Tactics**
+- Asynchronous pipelines.
+- Secure code library and collaboration practices.
 
 ---
 
 ### Notes for Understanding
 
-#### **APIs and Microservices**
-- APIs let applications talk to each other; they act as messengers between systems.
-- Microservices are small, independent services interacting through APIs.
-- Secure APIs by using service meshes, enforcing coding standards, and restricting HTTP methods.
+#### **1. APIs and Microservices**
+- APIs act as bridges between applications, enabling communication.
+- Microservices are independent units that interact through APIs.
+- **Security Tips**:
+  - Use service meshes for communication management.
+  - Enforce strict coding standards and secure authentication mechanisms.
+  - Provide minimal error details to avoid helping attackers.
+  - Allow only necessary HTTP methods to reduce attack risks.
 
-#### **Containers and Orchestration**
-- Containers are lightweight environments running specific tasks efficiently.
-- Orchestration tools like Kubernetes manage large numbers of containers.
-- Security includes avoiding running containers as root, securing registries, and monitoring resources.
+#### **2. Online Storage**
+- Classify data based on sensitivity for proper security measures.
+- Add security layers like monitoring and alerts for unauthorized changes.
+- Use multi-factor authentication (MFA) and strong passwords.
 
-#### **Serverless Computing**
-- Runs code only when needed, reducing attack surfaces.
-- Use API gateways for authentication, authorization, and rate-limiting.
-- Ensure each serverless application is isolated to prevent breaches.
+#### **3. Containers and Orchestration**
+- Containers are lightweight and more efficient than VMs.
+- Orchestration tools manage multiple containers automatically.
+- Avoid running containers with admin privileges to reduce risks.
+- Use trusted container images to prevent vulnerabilities.
 
-#### **Infrastructure as Code**
-- Automates deployment with scripts, ensuring consistency.
-- Immutable infrastructure replaces old systems instead of patching them, reducing risks.
+#### **4. Serverless Computing**
+- Serverless systems run code on-demand, reducing attack surfaces.
+- API gateways enforce access control and usage limits.
+- Always authenticate and authorize before inter-service communication.
 
-#### **DevSecOps**
-- Security is integrated into the development pipeline.
-- Use automated tools to check for vulnerabilities and enforce secure coding practices.
+#### **5. Infrastructure as Code (IaC)**
+- IaC uses scripts to automate infrastructure deployment.
+- Enhances security by eliminating manual configuration errors.
+- Immutable infrastructure reduces risks by replacing old systems with new ones.
 
+---
+
+### Most Probable Topics for Finals
+Based on their foundational importance and real-world relevance, these topics are likely to appear in your SSD final paper:
+1. **APIs and Microservices**:
+   - Securing APIs, Authentication, and Restrictive HTTP Methods.
+2. **Containers and Orchestration**:
+   - Security best practices and container orchestration.
+3. **Serverless Computing**:
+   - API Gateway and security principles.
+4. **Infrastructure as Code (IaC)**:
+   - Security automation and immutable infrastructure.
+5. **Dev(Sec)Ops**:
+   - Integration of security into DevOps workflows.
+6. **Cloud Native Security**:
+   - Zero Trust and monitoring principles.
+
+Would you like detailed notes on any specific topic or subtopic?
